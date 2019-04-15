@@ -1,6 +1,6 @@
 node('master') 
 {
-    stage('ContinuousDownload slave') 
+    stage('ContinuousDownload slave2') 
     {
       git 'https://github.com/selenium-saikrishna/maven.git'
     }
